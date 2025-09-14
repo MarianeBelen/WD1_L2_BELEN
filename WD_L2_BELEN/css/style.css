@@ -1,0 +1,65 @@
+body {
+  background-image: url("../src/img/bubble-nebula.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.meow-form, .landing {
+  background: rgba(26, 26, 26, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+.meow-form img {
+  width: 100px;
+  border-radius: 20%;
+}
+
+h1 {
+  color: aquamarine;
+}
+
+input {
+  background-color: silver;
+  color: black;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 5px 0;
+  width: 90%;
+}
+
+button {
+  background-color: aquamarine;
+  color: black;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: blue;
+  color: white;
+}
+
+.nav-buttons a {
+  background: aquamarine;
+  padding: 8px 15px;
+  margin: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+}
+.nav-buttons a:hover{
+    background: blue;
+    color: white;
+}
